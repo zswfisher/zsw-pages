@@ -9,6 +9,4 @@ process.argv.push('--gulpfile') // 指定执行目录
 // process.argv.push(require.resolve('../lin/index'))
 process.argv.push(require.resolve('..')) // 从 package.json 中查找结果一样
 
-console.log(process.argv)
-
 require('gulp/bin/gulp')
